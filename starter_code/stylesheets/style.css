@@ -5,3 +5,59 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+div{
+    border: 1px solid silver;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.picture{
+    width: 100%;
+    height: auto;
+}
+
+ 
+/*.nav-section{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+*/
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .menu{
+        display:none;
+    }
+
+    .logo{
+        display:flex;
+        flex-shrink: 0;
+        width: 20vh;
+        height: auto;
+    }
+    
+    logo-icon{
+        display: flex;
+        margin: 0px 5px;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        background:transparent;
+        flex-grow: 1;
+    }
+
+
+}
